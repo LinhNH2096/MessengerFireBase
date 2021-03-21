@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class LoginViewController: UIViewController {
     
@@ -148,11 +149,18 @@ class LoginViewController: UIViewController {
             return
         }
         
-        //Call authenticate Username and Password at server
+        //Call authenticate Username and Password by FireBaseAuth
+        FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password, completion: { authDataResult, error in
+            guard let result = authDataResult, error == nil else {
+                print("Login Failed")
+                return
+            }
+            
+            let user = result.user
+            print("Login success with \(user)")
+        })
         
-        //Call Login
-        let profileViewController = ProfileViewController()
-        navigationController?.pushViewController(profileViewController, animated: true)
+        
     }
     
     @objc private func didTapOnforgetPasswordButtonButton() {

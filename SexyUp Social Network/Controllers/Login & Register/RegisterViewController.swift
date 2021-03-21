@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class RegisterViewController: UIViewController {
     
@@ -200,6 +201,8 @@ class RegisterViewController: UIViewController {
     @objc private func didTapOnRegisterButton() {
         emailField.resignFirstResponder()
         passWordField.resignFirstResponder()
+        let messageCommon = "Something wrong, please check again!"
+        let messagePwNotSame = "Re-password is not same!"
         
         guard let firstName = firstNameField.text,
               let lastName = lastNameField.text,
@@ -212,19 +215,33 @@ class RegisterViewController: UIViewController {
               !doB.isEmpty,
               !email.isEmpty,
               !password.isEmpty,
-              password.count >= 6,
-              rePassword == password else {
-            doUserRegisterError()
+              password.count >= 6 else {
+            doUserRegisterError(message: messageCommon)
             return
         }
         
+        if password != rePassword {
+            doUserRegisterError(message: messagePwNotSame)
+        }
+        
         //Call Register
+        
+        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password, completion: { authResult, error in
+            guard let result = authResult, error == nil else {
+                print("Error creating user")
+                return
+            }
+            
+            let user = result.user
+            print("FireBaseUser: \(user)")
+            
+        })
     }
     
     
-    @objc private func doUserRegisterError() {
+    @objc private func doUserRegisterError(message: String) {
         let alert = UIAlertController(title: "Woops",
-                                      message: "Please enter all information to Register!",
+                                      message: message,
                                       preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Dismiss", style: .cancel, handler: nil))
         present(alert, animated: true, completion: nil)

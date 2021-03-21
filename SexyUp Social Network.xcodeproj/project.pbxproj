@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,8 +22,12 @@
 		412C4EEA25BD1EDE0078BAAD /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EE925BD1EDE0078BAAD /* PhotoViewerViewController.swift */; };
 		412C4EEF25BD1EEA0078BAAD /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EEE25BD1EEA0078BAAD /* VideoPlayerViewController.swift */; };
 		412C4EF425BD1F0C0078BAAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EF325BD1F0C0078BAAD /* ProfileViewController.swift */; };
+		4141EC7526079A8400E130AF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4141EC7426079A8400E130AF /* GoogleService-Info.plist */; };
 		417C5B3825BD3061001F73E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C5B3725BD3061001F73E9 /* Extensions.swift */; };
 		419813E625C6DA5500A3BE80 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419813E525C6DA5500A3BE80 /* ResetPasswordViewController.swift */; };
+		A66FDEB1FF4E0CA0DDDA4089 /* Pods_SexyUp_Social_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD8B6B8BC785513230FFE14 /* Pods_SexyUp_Social_Network.framework */; };
+		C88D1FEB529F65591A0CCECA /* Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4EB028FDAD1780040D35D9 /* Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework */; };
+		F721F5E05CA97CA245A191F1 /* Pods_SexyUp_Social_NetworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197710CEEC591A92222EFDD8 /* Pods_SexyUp_Social_NetworkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197710CEEC591A92222EFDD8 /* Pods_SexyUp_Social_NetworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SexyUp_Social_NetworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3704B24A6DD1B1B660E772 /* Pods-SexyUp Social NetworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social NetworkTests.release.xcconfig"; path = "Target Support Files/Pods-SexyUp Social NetworkTests/Pods-SexyUp Social NetworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		412C4E9225BD19DB0078BAAD /* SexyUp Social Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SexyUp Social Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C4E9525BD19DB0078BAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		412C4E9725BD19DB0078BAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,8 +71,16 @@
 		412C4EE925BD1EDE0078BAAD /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
 		412C4EEE25BD1EEA0078BAAD /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		412C4EF325BD1F0C0078BAAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		4141EC7426079A8400E130AF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		417C5B3725BD3061001F73E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		419813E525C6DA5500A3BE80 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		447DCA1F2E8A86B58D9AF43E /* Pods-SexyUp Social Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social Network.release.xcconfig"; path = "Target Support Files/Pods-SexyUp Social Network/Pods-SexyUp Social Network.release.xcconfig"; sourceTree = "<group>"; };
+		895E7CF66A9DD4F54A736955 /* Pods-SexyUp Social Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social Network.debug.xcconfig"; path = "Target Support Files/Pods-SexyUp Social Network/Pods-SexyUp Social Network.debug.xcconfig"; sourceTree = "<group>"; };
+		96E0B90C7548700CF8DBE545 /* Pods-SexyUp Social NetworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social NetworkTests.debug.xcconfig"; path = "Target Support Files/Pods-SexyUp Social NetworkTests/Pods-SexyUp Social NetworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FD8B6B8BC785513230FFE14 /* Pods_SexyUp_Social_Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SexyUp_Social_Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A909AC569F0ABFAB587790FE /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social Network-SexyUp Social NetworkUITests.release.xcconfig"; path = "Target Support Files/Pods-SexyUp Social Network-SexyUp Social NetworkUITests/Pods-SexyUp Social Network-SexyUp Social NetworkUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D6AB4035A3BE32036E46D2D3 /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SexyUp Social Network-SexyUp Social NetworkUITests.debug.xcconfig"; path = "Target Support Files/Pods-SexyUp Social Network-SexyUp Social NetworkUITests/Pods-SexyUp Social Network-SexyUp Social NetworkUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB4EB028FDAD1780040D35D9 /* Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A66FDEB1FF4E0CA0DDDA4089 /* Pods_SexyUp_Social_Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F721F5E05CA97CA245A191F1 /* Pods_SexyUp_Social_NetworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88D1FEB529F65591A0CCECA /* Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +118,8 @@
 				412C4EAE25BD19DC0078BAAD /* SexyUp Social NetworkTests */,
 				412C4EB925BD19DC0078BAAD /* SexyUp Social NetworkUITests */,
 				412C4E9325BD19DB0078BAAD /* Products */,
+				C59C57B78CDEA6A59BC0FB24 /* Pods */,
+				E5FF595107E0877021DAD336 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +136,7 @@
 		412C4E9425BD19DB0078BAAD /* SexyUp Social Network */ = {
 			isa = PBXGroup;
 			children = (
+				4141EC7426079A8400E130AF /* GoogleService-Info.plist */,
 				412C4ECF25BD1BBE0078BAAD /* Resources */,
 				412C4ECE25BD1BB50078BAAD /* ViewModels */,
 				412C4ECD25BD1BA20078BAAD /* Models */,
@@ -227,6 +247,29 @@
 			path = UserDefault;
 			sourceTree = "<group>";
 		};
+		C59C57B78CDEA6A59BC0FB24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				895E7CF66A9DD4F54A736955 /* Pods-SexyUp Social Network.debug.xcconfig */,
+				447DCA1F2E8A86B58D9AF43E /* Pods-SexyUp Social Network.release.xcconfig */,
+				D6AB4035A3BE32036E46D2D3 /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.debug.xcconfig */,
+				A909AC569F0ABFAB587790FE /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.release.xcconfig */,
+				96E0B90C7548700CF8DBE545 /* Pods-SexyUp Social NetworkTests.debug.xcconfig */,
+				3F3704B24A6DD1B1B660E772 /* Pods-SexyUp Social NetworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E5FF595107E0877021DAD336 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD8B6B8BC785513230FFE14 /* Pods_SexyUp_Social_Network.framework */,
+				DB4EB028FDAD1780040D35D9 /* Pods_SexyUp_Social_Network_SexyUp_Social_NetworkUITests.framework */,
+				197710CEEC591A92222EFDD8 /* Pods_SexyUp_Social_NetworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412C4EBF25BD19DC0078BAAD /* Build configuration list for PBXNativeTarget "SexyUp Social Network" */;
 			buildPhases = (
+				0A179DCA7BE42A90EA82314B /* [CP] Check Pods Manifest.lock */,
 				412C4E8E25BD19DB0078BAAD /* Sources */,
 				412C4E8F25BD19DB0078BAAD /* Frameworks */,
 				412C4E9025BD19DB0078BAAD /* Resources */,
+				6ADCE051B911652E65DB78D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -251,6 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412C4EC225BD19DC0078BAAD /* Build configuration list for PBXNativeTarget "SexyUp Social NetworkTests" */;
 			buildPhases = (
+				AF667B0DC04B6BF33D150EEB /* [CP] Check Pods Manifest.lock */,
 				412C4EA725BD19DC0078BAAD /* Sources */,
 				412C4EA825BD19DC0078BAAD /* Frameworks */,
 				412C4EA925BD19DC0078BAAD /* Resources */,
@@ -269,9 +315,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 412C4EC525BD19DC0078BAAD /* Build configuration list for PBXNativeTarget "SexyUp Social NetworkUITests" */;
 			buildPhases = (
+				92E469CC9F0DBFF2DBBC5DBA /* [CP] Check Pods Manifest.lock */,
 				412C4EB225BD19DC0078BAAD /* Sources */,
 				412C4EB325BD19DC0078BAAD /* Frameworks */,
 				412C4EB425BD19DC0078BAAD /* Resources */,
+				F4130857EB5C0FEE2289D900 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				412C4EA525BD19DC0078BAAD /* LaunchScreen.storyboard in Resources */,
+				4141EC7526079A8400E130AF /* GoogleService-Info.plist in Resources */,
 				412C4EA225BD19DC0078BAAD /* Assets.xcassets in Resources */,
 				412C4E9D25BD19DB0078BAAD /* Main.storyboard in Resources */,
 			);
@@ -351,6 +400,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A179DCA7BE42A90EA82314B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SexyUp Social Network-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ADCE051B911652E65DB78D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network/Pods-SexyUp Social Network-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network/Pods-SexyUp Social Network-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network/Pods-SexyUp Social Network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92E469CC9F0DBFF2DBBC5DBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SexyUp Social Network-SexyUp Social NetworkUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF667B0DC04B6BF33D150EEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SexyUp Social NetworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4130857EB5C0FEE2289D900 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network-SexyUp Social NetworkUITests/Pods-SexyUp Social Network-SexyUp Social NetworkUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network-SexyUp Social NetworkUITests/Pods-SexyUp Social Network-SexyUp Social NetworkUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SexyUp Social Network-SexyUp Social NetworkUITests/Pods-SexyUp Social Network-SexyUp Social NetworkUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		412C4E8E25BD19DB0078BAAD /* Sources */ = {
@@ -541,6 +693,7 @@
 		};
 		412C4EC025BD19DC0078BAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895E7CF66A9DD4F54A736955 /* Pods-SexyUp Social Network.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,6 +713,7 @@
 		};
 		412C4EC125BD19DC0078BAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447DCA1F2E8A86B58D9AF43E /* Pods-SexyUp Social Network.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -579,6 +733,7 @@
 		};
 		412C4EC325BD19DC0078BAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E0B90C7548700CF8DBE545 /* Pods-SexyUp Social NetworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -600,6 +755,7 @@
 		};
 		412C4EC425BD19DC0078BAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F3704B24A6DD1B1B660E772 /* Pods-SexyUp Social NetworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -621,6 +777,7 @@
 		};
 		412C4EC625BD19DC0078BAAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6AB4035A3BE32036E46D2D3 /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -640,6 +797,7 @@
 		};
 		412C4EC725BD19DC0078BAAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A909AC569F0ABFAB587790FE /* Pods-SexyUp Social Network-SexyUp Social NetworkUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

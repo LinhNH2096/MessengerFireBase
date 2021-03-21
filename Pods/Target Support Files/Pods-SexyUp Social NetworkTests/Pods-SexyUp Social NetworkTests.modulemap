@@ -1,0 +1,6 @@
+framework module Pods_SexyUp_Social_NetworkTests {
+  umbrella header "Pods-SexyUp Social NetworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

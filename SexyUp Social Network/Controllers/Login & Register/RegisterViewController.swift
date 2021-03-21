@@ -17,7 +17,7 @@ class RegisterViewController: UIViewController {
     
     private let logoRegister: UIImageView = {
         let logoRegisterImageView = UIImageView()
-        logoRegisterImageView.image = UIImage(named: "logo-register")
+        logoRegisterImageView.image = UIImage(named: "logo-fb")
         logoRegisterImageView.contentMode = .scaleAspectFit
         return logoRegisterImageView
     }()
@@ -239,7 +239,7 @@ extension RegisterViewController:UITextFieldDelegate {
         } else if textField == lastNameField {
             dateOfBirthField.becomeFirstResponder()
         } else if textField == dateOfBirthField {
-            emailField.becomeFirstResponder()
+            emailField.becomeFirstResponder() 
         } else if textField == emailField {
             passWordField.becomeFirstResponder()
         } else if textField == passWordField{

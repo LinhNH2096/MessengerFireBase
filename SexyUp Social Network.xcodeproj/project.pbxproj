@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		412C4E9625BD19DB0078BAAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4E9525BD19DB0078BAAD /* AppDelegate.swift */; };
 		412C4E9825BD19DB0078BAAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4E9725BD19DB0078BAAD /* SceneDelegate.swift */; };
-		412C4E9A25BD19DB0078BAAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4E9925BD19DB0078BAAD /* ViewController.swift */; };
+		412C4E9A25BD19DB0078BAAD /* SexyUpSocialNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4E9925BD19DB0078BAAD /* SexyUpSocialNetworkViewController.swift */; };
 		412C4E9D25BD19DB0078BAAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412C4E9B25BD19DB0078BAAD /* Main.storyboard */; };
 		412C4EA025BD19DB0078BAAD /* SexyUp_Social_Network.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 412C4E9E25BD19DB0078BAAD /* SexyUp_Social_Network.xcdatamodeld */; };
 		412C4EA225BD19DC0078BAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412C4EA125BD19DC0078BAAD /* Assets.xcassets */; };
 		412C4EA525BD19DC0078BAAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412C4EA325BD19DC0078BAAD /* LaunchScreen.storyboard */; };
 		412C4EB025BD19DC0078BAAD /* SexyUp_Social_NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EAF25BD19DC0078BAAD /* SexyUp_Social_NetworkTests.swift */; };
 		412C4EBB25BD19DC0078BAAD /* SexyUp_Social_NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EBA25BD19DC0078BAAD /* SexyUp_Social_NetworkUITests.swift */; };
+		412C4EDB25BD1EA40078BAAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EDA25BD1EA40078BAAD /* LoginViewController.swift */; };
+		412C4EE025BD1EB00078BAAD /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EDF25BD1EB00078BAAD /* RegisterViewController.swift */; };
+		412C4EE525BD1ECD0078BAAD /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EE425BD1ECD0078BAAD /* NewConversationViewController.swift */; };
+		412C4EEA25BD1EDE0078BAAD /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EE925BD1EDE0078BAAD /* PhotoViewerViewController.swift */; };
+		412C4EEF25BD1EEA0078BAAD /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EEE25BD1EEA0078BAAD /* VideoPlayerViewController.swift */; };
+		412C4EF425BD1F0C0078BAAD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412C4EF325BD1F0C0078BAAD /* ProfileViewController.swift */; };
+		417C5B3825BD3061001F73E9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C5B3725BD3061001F73E9 /* Extensions.swift */; };
+		419813E625C6DA5500A3BE80 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419813E525C6DA5500A3BE80 /* ResetPasswordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,7 @@
 		412C4E9225BD19DB0078BAAD /* SexyUp Social Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SexyUp Social Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C4E9525BD19DB0078BAAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		412C4E9725BD19DB0078BAAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		412C4E9925BD19DB0078BAAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		412C4E9925BD19DB0078BAAD /* SexyUpSocialNetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexyUpSocialNetworkViewController.swift; sourceTree = "<group>"; };
 		412C4E9C25BD19DB0078BAAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		412C4E9F25BD19DB0078BAAD /* SexyUp_Social_Network.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SexyUp_Social_Network.xcdatamodel; sourceTree = "<group>"; };
 		412C4EA125BD19DC0078BAAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +59,14 @@
 		412C4EB625BD19DC0078BAAD /* SexyUp Social NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SexyUp Social NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C4EBA25BD19DC0078BAAD /* SexyUp_Social_NetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexyUp_Social_NetworkUITests.swift; sourceTree = "<group>"; };
 		412C4EBC25BD19DC0078BAAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412C4EDA25BD1EA40078BAAD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		412C4EDF25BD1EB00078BAAD /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		412C4EE425BD1ECD0078BAAD /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		412C4EE925BD1EDE0078BAAD /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		412C4EEE25BD1EEA0078BAAD /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		412C4EF325BD1F0C0078BAAD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		417C5B3725BD3061001F73E9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		419813E525C6DA5500A3BE80 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +117,11 @@
 		412C4E9425BD19DB0078BAAD /* SexyUp Social Network */ = {
 			isa = PBXGroup;
 			children = (
-				412C4E9525BD19DB0078BAAD /* AppDelegate.swift */,
-				412C4E9725BD19DB0078BAAD /* SceneDelegate.swift */,
-				412C4E9925BD19DB0078BAAD /* ViewController.swift */,
-				412C4E9B25BD19DB0078BAAD /* Main.storyboard */,
-				412C4EA125BD19DC0078BAAD /* Assets.xcassets */,
-				412C4EA325BD19DC0078BAAD /* LaunchScreen.storyboard */,
+				412C4ECF25BD1BBE0078BAAD /* Resources */,
+				412C4ECE25BD1BB50078BAAD /* ViewModels */,
+				412C4ECD25BD1BA20078BAAD /* Models */,
+				412C4ECC25BD1B9B0078BAAD /* Views */,
+				412C4ECB25BD1B770078BAAD /* Controllers */,
 				412C4EA625BD19DC0078BAAD /* Info.plist */,
 				412C4E9E25BD19DB0078BAAD /* SexyUp_Social_Network.xcdatamodeld */,
 			);
@@ -129,6 +144,87 @@
 				412C4EBC25BD19DC0078BAAD /* Info.plist */,
 			);
 			path = "SexyUp Social NetworkUITests";
+			sourceTree = "<group>";
+		};
+		412C4ECB25BD1B770078BAAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				412C4E9925BD19DB0078BAAD /* SexyUpSocialNetworkViewController.swift */,
+				412C4EF825BD1F4D0078BAAD /* Login & Register */,
+				412C4EE425BD1ECD0078BAAD /* NewConversationViewController.swift */,
+				412C4EE925BD1EDE0078BAAD /* PhotoViewerViewController.swift */,
+				412C4EEE25BD1EEA0078BAAD /* VideoPlayerViewController.swift */,
+				412C4EF325BD1F0C0078BAAD /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		412C4ECC25BD1B9B0078BAAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				412C4ED025BD1C140078BAAD /* Storyboards */,
+				412C4EA125BD19DC0078BAAD /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		412C4ECD25BD1BA20078BAAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		412C4ECE25BD1BB50078BAAD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		412C4ECF25BD1BBE0078BAAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				412C4EFA25BD1FB00078BAAD /* UserDefault */,
+				412C4EF925BD1F9B0078BAAD /* Common */,
+				412C4E9525BD19DB0078BAAD /* AppDelegate.swift */,
+				412C4E9725BD19DB0078BAAD /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		412C4ED025BD1C140078BAAD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				412C4EA325BD19DC0078BAAD /* LaunchScreen.storyboard */,
+				412C4E9B25BD19DB0078BAAD /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		412C4EF825BD1F4D0078BAAD /* Login & Register */ = {
+			isa = PBXGroup;
+			children = (
+				412C4EDA25BD1EA40078BAAD /* LoginViewController.swift */,
+				412C4EDF25BD1EB00078BAAD /* RegisterViewController.swift */,
+				419813E525C6DA5500A3BE80 /* ResetPasswordViewController.swift */,
+			);
+			path = "Login & Register";
+			sourceTree = "<group>";
+		};
+		412C4EF925BD1F9B0078BAAD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				417C5B3725BD3061001F73E9 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		412C4EFA25BD1FB00078BAAD /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserDefault;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +357,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				412C4E9A25BD19DB0078BAAD /* ViewController.swift in Sources */,
+				412C4E9A25BD19DB0078BAAD /* SexyUpSocialNetworkViewController.swift in Sources */,
+				412C4EE525BD1ECD0078BAAD /* NewConversationViewController.swift in Sources */,
+				412C4EF425BD1F0C0078BAAD /* ProfileViewController.swift in Sources */,
+				419813E625C6DA5500A3BE80 /* ResetPasswordViewController.swift in Sources */,
 				412C4E9625BD19DB0078BAAD /* AppDelegate.swift in Sources */,
+				412C4EEF25BD1EEA0078BAAD /* VideoPlayerViewController.swift in Sources */,
 				412C4E9825BD19DB0078BAAD /* SceneDelegate.swift in Sources */,
+				412C4EE025BD1EB00078BAAD /* RegisterViewController.swift in Sources */,
+				412C4EEA25BD1EDE0078BAAD /* PhotoViewerViewController.swift in Sources */,
+				412C4EDB25BD1EA40078BAAD /* LoginViewController.swift in Sources */,
+				417C5B3825BD3061001F73E9 /* Extensions.swift in Sources */,
 				412C4EA025BD19DB0078BAAD /* SexyUp_Social_Network.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +546,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SexyUp Social Network/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "SexyUp Social Network/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

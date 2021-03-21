@@ -141,14 +141,18 @@ class LoginViewController: UIViewController {
         emailField.resignFirstResponder()
         passWordField.resignFirstResponder()
         
+        //Validation basic rule at FE
         guard let email = emailField.text, let password = passWordField.text, !email.isEmpty, !password.isEmpty,
               password.count >= 6 else {
             doUserLoginError()
             return
         }
         
+        //Call authenticate Username and Password at server
+        
         //Call Login
-        print("Login success")
+        let profileViewController = ProfileViewController()
+        navigationController?.pushViewController(profileViewController, animated: true)
     }
     
     @objc private func didTapOnforgetPasswordButtonButton() {
